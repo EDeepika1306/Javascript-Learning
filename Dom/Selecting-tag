@@ -1,1 +1,11 @@
-//
+<h1 id="title">Hello World!
+
+</h1>
+    <script>
+        //Selecting h1 tag
+        var he=document.getElementById("title")
+        console.log(  he.textContent)
+        he.textContent="Bye World"
+    </script>
+
+
